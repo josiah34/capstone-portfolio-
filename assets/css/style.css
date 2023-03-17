@@ -60,11 +60,41 @@ a:hover {
     outline: 0 none;
     text-decoration: none;
 }
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .skill-badges img {
+    width: 120px;
+    height: auto;
+  }
 
 h4 {
     font-size: 30px;
 }
-
+.education {
+    list-style: none;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  .social-media-icons li {
+    margin-left: 15px;
+  }
+  
+  .social-media-icons li:first-child {
+    margin-left: 0;
+  }
+  .social-media-icons li a i {
+    font-size: 50px; /* Change icon size */
+  }
 .button {
     background-color: #1c87c9;
     border: none;
